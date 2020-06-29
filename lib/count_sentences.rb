@@ -28,7 +28,7 @@ class String
   end
 
   def count_sentences
-    self.split unless self.include?(",")
+    self.split 
     self.count
   
   end
